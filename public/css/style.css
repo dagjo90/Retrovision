@@ -1,0 +1,351 @@
+/* general */
+body {
+    background-image: url("../images/back1.jpg");
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.test {
+    background-image: url("../images/back1.jpg");
+    background-size: contain;
+    width: 100%;
+}
+
+/* Welcome page*/
+.loginScreen form input, .registerScreen form input {
+    font-family: "Aldrich", serif;
+    width: 400px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.loginScreen form, .registerScreen form {
+    width: 415px;
+    margin: auto;
+}
+
+#submit, #submitRegister, #userAdd, #validate {
+    width: 420px;
+}
+
+#displayButton, #toggleback, #deleteAccount {
+    font-family: "Aldrich", serif;
+    width: 420px;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 5px auto;
+}
+
+#bigHeader {
+    width: 1300px;
+    margin: 50px auto;
+    font-family: Monoton, serif;
+    font-size: 135px;
+    background-color: black;
+    color: gold;
+    font-weight: 100;
+    padding: 20px;
+    border: 1px solid gold;
+    border-radius: 2px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+#smallHeader:hover, #bigHeader:hover {
+    transition: color 0.5s linear, border 0.8s linear;
+    color: RGB(175, 17, 28);
+    border: 1px solid RGB(175, 17, 28);
+}
+
+#smallHeader:active, #bigHeader:active {
+    position: relative;
+    top: 28px;
+}
+
+.formContainer {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 420px;
+    margin: 50px auto;
+    border-radius: 3px;
+    padding: 60px;
+}
+
+.registerScreen {
+    display: none;
+}
+
+#toggleback {
+    display: none;
+}
+
+#displayRegister {
+    display: inline-block;
+}
+
+form {
+    display: inline-block;
+}
+
+/* Main Page*/
+.mainNav {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+.accountNav {
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 25px auto;
+    border-radius: 3px;
+    height: 50px;
+}
+
+#user0, #user1, #user2 {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 25px auto;
+    width: 500px;
+    border-radius: 3px;
+    font-family: "Aldrich", serif;
+    color: black;
+    height: 50px;
+}
+
+.leftText, .rightText {
+    font-size: 25px;
+}
+
+.leftText {
+    display: inline-block;
+    width: 250px;
+    vertical-align: bottom;
+    text-align: right;
+}
+
+.rightText {
+    display: inline-block;
+    margin-left: 90px;
+    width: 150px;
+}
+
+.addUser {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 25px auto;
+    width: 500px;
+    border-radius: 3px;
+    font-family: "Aldrich", serif;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.mainNav a .fas, .mainNav  a .far {
+    color: RGB(175, 17, 28);
+    font-size: 40px;
+}
+
+a .fas, a .far {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 40px;
+}
+
+a .fas:hover, a .far:hover {
+    transition: color 0.3s linear;
+    color: RGB(175, 17, 28);
+    font-size: 40px;
+}
+
+a p {
+    font-family: "Aldrich", serif;
+    color: black;
+}
+
+/* page addUser => see welcome page*/
+/* page profile => see welcome page*/
+/*page displayMovies */
+.navigation {
+    width: 75px;
+    padding: 25px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 372px;
+}
+
+.navigation a, .navigation #user, .navigation i {
+    margin: 20px auto;
+}
+
+#user {
+    font-family: "Aldrich", serif;
+    color: white;
+}
+
+#smallHeader {
+    width: 433px;
+    margin: 25px 25px;
+    font-family: Monoton, serif;
+    font-size: 45px;
+    background-color: black;
+    color: gold;
+    font-weight: 100;
+    padding: 7px;
+    border: 1px solid gold;
+    border-radius: 2px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+/*page films*/
+.movie {
+    margin: 20px 20px;
+    width: 255px;
+    display: inline-block;
+}
+
+.movie .texte {
+    width: 150px;
+}
+
+.texte h4, p {
+    margin: 0;
+    display: inline-block;
+}
+
+.texte p {
+    float: right;
+}
+
+.icones {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones p {
+    font-family: "Aldrich", serif;
+    margin: 5px 5px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 100;
+}
+
+
+
+.white a .fas, .white a .far {
+    color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.red a .fas, .red a .far {
+    color: RGB(175, 17, 28);
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.white a .fas:hover, .white a .far:hover {
+    transition: color 0.3s linear;
+    color: RGB(175, 17, 28);
+}
+
+.red a .fas:hover, .red a .far:hover {
+    transition: color 0.3s linear;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.white a .far, .red a .far {
+    float: right;
+}
+
+.all {
+    width: 1400px;
+    margin: 50px auto;
+}
+
+.moviesContainer {
+    width: 1180px;
+    background-color: black;
+    border: 1px solid white;
+    margin-left: 135px;
+    padding-bottom : 50px;
+}
+
+.moviesContainer h2 {
+    color: white;
+    font-family: Aldrich, serif;
+    width: 350px;
+    margin-left: 25px;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+/* Page fiche film*/
+.movieContainer {
+    width: 1230px;
+    background-color: black;
+    border: 1px solid white;
+    margin-left: 135px;
+    margin-bottom : 150px;
+    padding : 20px 0px 50px 20px;
+    font-family: "Aldrich", serif;
+}
+
+.movieContainer h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.infoContainer {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.synopsis {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 25px;
+}
+
+iframe {
+    display: inline-block;
+}
+
+.movieContainer img {
+    width: 300px;
+    height: auto;
+    margin-right: 50px;
+    vertical-align: top;
+}
+
+.moviesContainer img {
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 255px;
+    height: 355px;
+}
+
+.moviesContainer img:hover {
+    transition: border 0.3s linear;
+    border: 1px solid RGB(175, 17, 28);;
+}
+
+.réalisateur, .durée, .genre {
+    font-size: 15px;
+    line-height: 15px;
+}
+
+a {
+    text-decoration: none;
+}
